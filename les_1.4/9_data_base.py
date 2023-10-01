@@ -17,10 +17,7 @@ class DataBase:
             self.lst_data.append(result)
 
     def select(self, a, b):
-        if b > len(self.lst_data):
-            return self.lst_data[a::]
-        else:
-            return self.lst_data[a:b+1]
+        return self.lst_data[a:b+1]
 
 db = DataBase()
 db.insert(lst_in)
