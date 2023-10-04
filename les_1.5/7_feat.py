@@ -8,4 +8,3 @@ class Memory:
 
 class MotherBoard:
     pass
-
