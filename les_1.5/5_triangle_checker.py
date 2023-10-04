@@ -16,7 +16,7 @@ class TriangleChecker:
             return 2
 
 
-a, b, c = map(int, input().split())
+a, b, c = map(int, map(float, input().split()))
 
 tr = TriangleChecker(a, b, c)
 
